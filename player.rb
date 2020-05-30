@@ -1,11 +1,10 @@
 class Player
   include Prompt
-  attr_accessor :name, :lives, :score
+  attr_accessor :name, :lives
   def initialize(player)
     @player = player
     self.name = input(player)
     self.lives = 3
-    self.score = 0
   end
   
   def input(player)

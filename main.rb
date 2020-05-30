@@ -20,5 +20,16 @@ require './player'
 require './game'
 require './question'
 
+
 game = Game.new
-game.turn
+# puts "Play again? y/n"
+# go_again = gets.chomp
+# if go_again == "y"
+#   game = Game.new
+# elsif go_again == "n"
+#   puts "ok, bye!"
+#   return
+# else
+#   puts "ERRORROROROEEEORORER"
+#   return
+# end
